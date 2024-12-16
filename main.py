@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 # Load dataset
 places_df = pd.read_csv("Tourist_Places_India.csv")
+places_df = places_df.dropna(subset=["Rating"])  # Ensure no NaN values in 'Rating'
+places_df["Rating"] = pd.to_numeric(places_df["Rating"], errors="coerce")  # Ensure numeric ratings
 
 
 # Helper function to filter recommendations
 def recommend_places(location=None, place_type=None, activity=None, season=None):
-    filtered_df = (
-        places_df.copy()
-    )  # Use a copy to avoid modifying the original DataFrame
+    filtered_df = places_df.copy()
 
     # Clean the data by stripping whitespace
     for column in ["Location", "Type", "Activities", "Best Season"]:
@@ -31,15 +31,11 @@ def recommend_places(location=None, place_type=None, activity=None, season=None)
         ]
     if activity:
         filtered_df = filtered_df[
-            filtered_df["Activities"].str.contains(
-                activity.strip(), case=False, na=False
-            )
+            filtered_df["Activities"].str.contains(activity.strip(), case=False, na=False)
         ]
     if season:
         filtered_df = filtered_df[
-            filtered_df["Best Season"].str.contains(
-                season.strip(), case=False, na=False
-            )
+            filtered_df["Best Season"].str.contains(season.strip(), case=False, na=False)
         ]
 
     return filtered_df
@@ -48,7 +44,9 @@ def recommend_places(location=None, place_type=None, activity=None, season=None)
 # Routes
 @app.route("/")
 def index():
-    return render_template("index.html")
+    trending_places = places_df.nlargest(10, "Rating").to_dict(orient="records")  # Top 10 by rating
+    message = "Trending tourist places:"
+    return render_template("index.html", recommendations=trending_places, message=message)
 
 
 @app.route("/recommend", methods=["GET", "POST"])
@@ -56,6 +54,7 @@ def recommend():
     recommendations = pd.DataFrame()
     pagination = None
     location = place_type = activity = season = None
+    message = ""
 
     if request.method == "POST":
         # Get form data
@@ -64,27 +63,27 @@ def recommend():
         activity = request.form.get("activity")
         season = request.form.get("season")
 
-        # Check if at least one field is provided
+        # If no input provided, show top 10 trending places
         if not (location or place_type or activity or season):
-            message = "Please provide at least one filter (location, type, activity, or season)."
-            return render_template("index.html", message=message)
+            recommendations = places_df.nlargest(10, "Rating")
+            message = "Trending tourist places:"
+        else:
+            # Get recommendations
+            recommendations = recommend_places(
+                location=location,
+                place_type=place_type,
+                activity=activity,
+                season=season,
+            )
 
-        # Get recommendations
-        recommendations = recommend_places(
-            location=location, place_type=place_type, activity=activity, season=season
-        )
-
-    elif request.method == "GET":
-        # Retain query parameters for pagination
-        location = request.args.get("location")
-        place_type = request.args.get("place_type")
-        activity = request.args.get("activity")
-        season = request.args.get("season")
-
-        # Fetch recommendations again
-        recommendations = recommend_places(
-            location=location, place_type=place_type, activity=activity, season=season
-        )
+            # If no recommendations found, fallback to 10 random related places
+            if recommendations.empty:
+                recommendations = places_df.sample(5)
+                message = "No exact matches found. But you may like:"
+    else:
+        # For GET requests, show trending places by default
+        recommendations = places_df.nlargest(10, "Rating")
+        message = "Trending tourist places:"
 
     # Pagination setup
     page = request.args.get(get_page_parameter(), type=int, default=1)
@@ -93,7 +92,7 @@ def recommend():
     total = len(recommendations)
 
     # Paginated data
-    paginated_recommendations = recommendations.iloc[offset : offset + per_page]
+    paginated_recommendations = recommendations.iloc[offset : offset + per_page].to_dict(orient="records")
     pagination = Pagination(
         page=page,
         total=total,
@@ -104,17 +103,15 @@ def recommend():
         format_number=True,
     )
 
-    # Convert paginated data to dictionary
-    recommendation_list = paginated_recommendations.to_dict(orient="records")
-
     return render_template(
         "index.html",
-        recommendations=recommendation_list,
+        recommendations=paginated_recommendations,
         pagination=pagination,
         location=location,
         place_type=place_type,
         activity=activity,
         season=season,
+        message=message,
     )
 
 

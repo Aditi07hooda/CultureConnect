@@ -1,301 +1,301 @@
-Place,Type,Location,Best Season,Activities,Description
-Manali,Adventure,Himachal Pradesh,Winter,"Trekking, Skiing",A popular hill station known for snow sports and scenic views.
-Rishikesh,Pilgrimage,Uttarakhand,Spring,"River Rafting, Meditation","Known as the Yoga Capital of the World, also famous for adventure sports."
-Jaipur,History,Rajasthan,Winter,"Fort Tours, Museums",The Pink City offers a glimpse into India’s rich royal heritage.
-Goa,Relaxation,Goa,Winter,"Beach Parties, Water Sports","A coastal destination famous for beaches, nightlife, and Portuguese heritage."
-Kaziranga National Park,Nature,Assam,Winter,"Wildlife Safari, Bird Watching",Home to the one-horned rhinoceros and diverse wildlife.
-Shimla,Nature,Uttarakhand,Winter,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking."
-Varanasi,Adventure,Gujarat,Spring,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Mysore,History,Kerala,Summer,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks."
-Udaipur,Relaxation,Karnataka,Winter,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Pondicherry,History,Sikkim,Winter,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits."
-Darjeeling,Relaxation,Karnataka,Summer,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties."
-Leh,Nature,Rajasthan,Monsoon,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Ooty,Adventure,Maharashtra,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Agra,Adventure,Maharashtra,Winter,"Trekking, Camping","A thrilling destination offering Trekking, Camping."
-Khajuraho,Pilgrimage,Assam,Summer,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks."
-Ranthambore,Relaxation,Tamil Nadu,Spring,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Munnar,Pilgrimage,Himachal Pradesh,Monsoon,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks."
-Hampi,Nature,Assam,Autumn,"Boating, Wildlife Safari","A serene spot surrounded by nature, ideal for Boating, Wildlife Safari."
-Jaisalmer,Adventure,Assam,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Rann of Kutch,Pilgrimage,Gujarat,Monsoon,"Meditation, Temple Visits","A sacred place attracting pilgrims for Meditation, Temple Visits."
-Ellora Caves,Relaxation,Kerala,Autumn,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Alleppey,Nature,Gujarat,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Coorg,History,Uttarakhand,Autumn,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Mahabalipuram,History,Assam,Monsoon,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits."
-Andaman Islands,Relaxation,Goa,Summer,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays."
-Gulmarg,Pilgrimage,Himachal Pradesh,Autumn,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Kanha National Park,Relaxation,Uttarakhand,Spring,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Rameswaram,Relaxation,Uttarakhand,Autumn,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays."
-Konark,Pilgrimage,Assam,Autumn,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals."
-Mount Abu,Adventure,Kerala,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Kodaikanal,History,Tamil Nadu,Autumn,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks."
-Lonavala,Adventure,Goa,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Shillong,Relaxation,Maharashtra,Monsoon,"Spa, Beach Parties","Known for its tranquil atmosphere and Spa, Beach Parties."
-Cherrapunji,Nature,Karnataka,Summer,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating."
-Lakshadweep,Relaxation,Assam,Summer,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Sundarbans,History,Assam,Monsoon,"Museum Visits, Fort Tours","Famous for its historical landmarks and Museum Visits, Fort Tours."
-Amritsar,Relaxation,Kerala,Monsoon,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays."
-Chikmagalur,Pilgrimage,Rajasthan,Spring,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits."
-Tawang,Pilgrimage,Goa,Summer,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Kanyakumari,Relaxation,Tamil Nadu,Monsoon,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Haridwar,History,Himachal Pradesh,Monsoon,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits."
-Pushkar,Pilgrimage,Karnataka,Monsoon,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation."
-Bodh Gaya,History,Rajasthan,Winter,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits."
-Bandipur,History,Rajasthan,Monsoon,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours."
-Jodhpur,Nature,Sikkim,Autumn,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking."
-Bikaner,Pilgrimage,Sikkim,Winter,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation."
-Mahabaleshwar,Adventure,Sikkim,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Nainital,Adventure,Kerala,Winter,"Skiing, Trekking","A thrilling destination offering Skiing, Trekking."
-Srinagar,Adventure,Tamil Nadu,Summer,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Pahalgam,Pilgrimage,Rajasthan,Summer,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Alibaug,Nature,Tamil Nadu,Summer,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating."
-Ajanta Caves,Adventure,Uttarakhand,Autumn,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Pench National Park,Nature,Kerala,Autumn,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching."
-Chandigarh,Nature,Uttarakhand,Autumn,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching."
-Patiala,Adventure,Himachal Pradesh,Winter,"Skiing, Camping","A thrilling destination offering Skiing, Camping."
-Bhuj,Adventure,Maharashtra,Winter,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Dharamshala,Nature,Uttarakhand,Spring,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating."
-Gangtok,History,Rajasthan,Spring,"Museum Visits, Fort Tours","Famous for its historical landmarks and Museum Visits, Fort Tours."
-Kochi,Adventure,Maharashtra,Spring,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing."
-Thanjavur,History,Uttarakhand,Spring,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks."
-Madurai,Nature,Maharashtra,Autumn,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Manali,Relaxation,Sikkim,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Rishikesh,Nature,Kerala,Autumn,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Jaipur,Nature,Kerala,Spring,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking."
-Goa,Adventure,Himachal Pradesh,Summer,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting."
-Kaziranga National Park,Nature,Himachal Pradesh,Summer,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating."
-Shimla,Nature,Karnataka,Monsoon,"Wildlife Safari, Bird Watching","A serene spot surrounded by nature, ideal for Wildlife Safari, Bird Watching."
-Varanasi,Relaxation,Rajasthan,Summer,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays."
-Mysore,History,Goa,Summer,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks."
-Udaipur,Relaxation,Kerala,Summer,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays."
-Pondicherry,Relaxation,Sikkim,Summer,"Beach Parties, Spa","Known for its tranquil atmosphere and Beach Parties, Spa."
-Darjeeling,History,Himachal Pradesh,Monsoon,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks."
-Leh,History,Himachal Pradesh,Summer,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Ooty,Pilgrimage,Assam,Spring,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits."
-Agra,Pilgrimage,Sikkim,Summer,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits."
-Khajuraho,Relaxation,Uttarakhand,Summer,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays."
-Ranthambore,History,Karnataka,Monsoon,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours."
-Munnar,Pilgrimage,Gujarat,Winter,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation."
-Hampi,Nature,Rajasthan,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Jaisalmer,Adventure,Uttarakhand,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Rann of Kutch,Nature,Rajasthan,Monsoon,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching."
-Ellora Caves,Pilgrimage,Gujarat,Monsoon,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation."
-Alleppey,Nature,Gujarat,Winter,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Coorg,History,Gujarat,Autumn,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Mahabalipuram,History,Karnataka,Autumn,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Andaman Islands,Pilgrimage,Gujarat,Winter,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits."
-Gulmarg,Nature,Himachal Pradesh,Winter,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari."
-Kanha National Park,Relaxation,Rajasthan,Spring,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties."
-Rameswaram,Nature,Uttarakhand,Winter,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating."
-Konark,Relaxation,Assam,Autumn,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties."
-Mount Abu,Relaxation,Assam,Spring,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Kodaikanal,Nature,Sikkim,Summer,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari."
-Lonavala,Adventure,Kerala,Autumn,"Rafting, Camping","A thrilling destination offering Rafting, Camping."
-Shillong,Pilgrimage,Assam,Summer,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation."
-Cherrapunji,History,Goa,Autumn,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits."
-Lakshadweep,History,Rajasthan,Summer,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits."
-Sundarbans,Relaxation,Karnataka,Autumn,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Amritsar,Nature,Himachal Pradesh,Summer,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking."
-Chikmagalur,History,Tamil Nadu,Monsoon,"Heritage Walks, Monument Visits","Famous for its historical landmarks and Heritage Walks, Monument Visits."
-Tawang,Relaxation,Tamil Nadu,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Kanyakumari,Nature,Uttarakhand,Winter,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Haridwar,Pilgrimage,Karnataka,Summer,"Pilgrim Walks, Religious Rituals","A sacred place attracting pilgrims for Pilgrim Walks, Religious Rituals."
-Pushkar,History,Sikkim,Summer,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Bodh Gaya,Pilgrimage,Maharashtra,Autumn,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks."
-Bandipur,Relaxation,Gujarat,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Jodhpur,History,Sikkim,Monsoon,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks."
-Bikaner,Adventure,Uttarakhand,Spring,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Mahabaleshwar,Nature,Karnataka,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Nainital,Nature,Rajasthan,Winter,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Srinagar,Relaxation,Maharashtra,Winter,"Beach Parties, Spa","Known for its tranquil atmosphere and Beach Parties, Spa."
-Pahalgam,Adventure,Assam,Monsoon,"Skiing, Camping","A thrilling destination offering Skiing, Camping."
-Alibaug,History,Kerala,Monsoon,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks."
-Ajanta Caves,Relaxation,Goa,Monsoon,"Beach Parties, Yoga","Known for its tranquil atmosphere and Beach Parties, Yoga."
-Pench National Park,Adventure,Karnataka,Autumn,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Chandigarh,Pilgrimage,Tamil Nadu,Autumn,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation."
-Patiala,Relaxation,Karnataka,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Bhuj,Pilgrimage,Gujarat,Autumn,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Dharamshala,Nature,Sikkim,Autumn,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari."
-Gangtok,Pilgrimage,Gujarat,Spring,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits."
-Kochi,Nature,Assam,Winter,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching."
-Thanjavur,Nature,Gujarat,Autumn,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating."
-Madurai,Pilgrimage,Himachal Pradesh,Winter,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation."
-Manali,Adventure,Uttarakhand,Spring,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Rishikesh,Pilgrimage,Gujarat,Winter,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals."
-Jaipur,Pilgrimage,Sikkim,Winter,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits."
-Goa,History,Gujarat,Autumn,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits."
-Kaziranga National Park,Nature,Gujarat,Summer,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari."
-Shimla,Relaxation,Sikkim,Autumn,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays."
-Varanasi,History,Gujarat,Autumn,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks."
-Mysore,Adventure,Goa,Summer,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Udaipur,Adventure,Goa,Summer,"Camping, Skiing","A thrilling destination offering Camping, Skiing."
-Pondicherry,Pilgrimage,Maharashtra,Monsoon,"Temple Visits, Pilgrim Walks","A sacred place attracting pilgrims for Temple Visits, Pilgrim Walks."
-Darjeeling,Nature,Himachal Pradesh,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Leh,History,Sikkim,Spring,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Ooty,Pilgrimage,Rajasthan,Autumn,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits."
-Agra,Adventure,Rajasthan,Autumn,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Khajuraho,History,Himachal Pradesh,Summer,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits."
-Ranthambore,Nature,Rajasthan,Winter,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating."
-Munnar,Nature,Goa,Winter,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching."
-Hampi,Adventure,Kerala,Monsoon,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Jaisalmer,Adventure,Tamil Nadu,Spring,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Rann of Kutch,History,Gujarat,Monsoon,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Ellora Caves,Relaxation,Maharashtra,Summer,"Beach Parties, Spa","Known for its tranquil atmosphere and Beach Parties, Spa."
-Alleppey,Nature,Uttarakhand,Winter,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Coorg,History,Goa,Monsoon,"Monument Visits, Heritage Walks","Famous for its historical landmarks and Monument Visits, Heritage Walks."
-Mahabalipuram,Adventure,Himachal Pradesh,Monsoon,"Camping, Skiing","A thrilling destination offering Camping, Skiing."
-Andaman Islands,Relaxation,Rajasthan,Autumn,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays."
-Gulmarg,Pilgrimage,Tamil Nadu,Autumn,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation."
-Kanha National Park,Adventure,Rajasthan,Autumn,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Rameswaram,Relaxation,Uttarakhand,Winter,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga."
-Konark,History,Uttarakhand,Summer,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Mount Abu,History,Sikkim,Winter,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours."
-Kodaikanal,Nature,Karnataka,Autumn,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Lonavala,Relaxation,Maharashtra,Winter,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga."
-Shillong,Adventure,Maharashtra,Spring,"Skiing, Camping","A thrilling destination offering Skiing, Camping."
-Cherrapunji,Nature,Tamil Nadu,Autumn,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari."
-Lakshadweep,Relaxation,Himachal Pradesh,Spring,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties."
-Sundarbans,Pilgrimage,Rajasthan,Autumn,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals."
-Amritsar,History,Himachal Pradesh,Monsoon,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits."
-Chikmagalur,Relaxation,Sikkim,Spring,"Resort Stays, Spa","Known for its tranquil atmosphere and Resort Stays, Spa."
-Tawang,Adventure,Tamil Nadu,Monsoon,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Kanyakumari,History,Tamil Nadu,Spring,"Heritage Walks, Monument Visits","Famous for its historical landmarks and Heritage Walks, Monument Visits."
-Haridwar,Relaxation,Maharashtra,Spring,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga."
-Pushkar,Relaxation,Himachal Pradesh,Autumn,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga."
-Bodh Gaya,Pilgrimage,Assam,Autumn,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks."
-Bandipur,Adventure,Maharashtra,Autumn,"Camping, Skiing","A thrilling destination offering Camping, Skiing."
-Jodhpur,Nature,Assam,Spring,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching."
-Bikaner,Relaxation,Assam,Winter,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Mahabaleshwar,Adventure,Goa,Spring,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing."
-Nainital,Nature,Goa,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Srinagar,Pilgrimage,Karnataka,Winter,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits."
-Pahalgam,History,Maharashtra,Winter,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Alibaug,Adventure,Uttarakhand,Summer,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Ajanta Caves,Adventure,Karnataka,Spring,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing."
-Pench National Park,Adventure,Himachal Pradesh,Summer,"Skiing, Trekking","A thrilling destination offering Skiing, Trekking."
-Chandigarh,Adventure,Gujarat,Summer,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Patiala,Adventure,Uttarakhand,Winter,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Bhuj,Relaxation,Tamil Nadu,Winter,"Resort Stays, Spa","Known for its tranquil atmosphere and Resort Stays, Spa."
-Dharamshala,Relaxation,Rajasthan,Autumn,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga."
-Gangtok,Nature,Kerala,Winter,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking."
-Kochi,Adventure,Sikkim,Monsoon,"Skiing, Camping","A thrilling destination offering Skiing, Camping."
-Thanjavur,Nature,Rajasthan,Spring,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari."
-Madurai,Adventure,Karnataka,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Manali,Pilgrimage,Rajasthan,Summer,"Temple Visits, Pilgrim Walks","A sacred place attracting pilgrims for Temple Visits, Pilgrim Walks."
-Rishikesh,Pilgrimage,Sikkim,Spring,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits."
-Jaipur,Nature,Gujarat,Summer,"Wildlife Safari, Bird Watching","A serene spot surrounded by nature, ideal for Wildlife Safari, Bird Watching."
-Goa,Pilgrimage,Assam,Autumn,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Kaziranga National Park,Nature,Uttarakhand,Spring,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari."
-Shimla,Adventure,Tamil Nadu,Monsoon,"Skiing, Camping","A thrilling destination offering Skiing, Camping."
-Varanasi,Nature,Himachal Pradesh,Autumn,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Mysore,Adventure,Karnataka,Monsoon,"Camping, Skiing","A thrilling destination offering Camping, Skiing."
-Udaipur,History,Goa,Spring,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Pondicherry,Relaxation,Rajasthan,Monsoon,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Darjeeling,Relaxation,Karnataka,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Leh,Adventure,Uttarakhand,Summer,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Ooty,Nature,Rajasthan,Winter,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari."
-Agra,Adventure,Rajasthan,Monsoon,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting."
-Khajuraho,Relaxation,Gujarat,Winter,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga."
-Ranthambore,History,Tamil Nadu,Monsoon,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits."
-Munnar,Relaxation,Himachal Pradesh,Winter,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Hampi,Pilgrimage,Himachal Pradesh,Spring,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks."
-Jaisalmer,Relaxation,Maharashtra,Autumn,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Rann of Kutch,Nature,Karnataka,Summer,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching."
-Ellora Caves,Relaxation,Kerala,Spring,"Resort Stays, Spa","Known for its tranquil atmosphere and Resort Stays, Spa."
-Alleppey,Pilgrimage,Tamil Nadu,Autumn,"Pilgrim Walks, Religious Rituals","A sacred place attracting pilgrims for Pilgrim Walks, Religious Rituals."
-Coorg,Pilgrimage,Rajasthan,Winter,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks."
-Mahabalipuram,Adventure,Maharashtra,Winter,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting."
-Andaman Islands,Nature,Goa,Spring,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari."
-Gulmarg,Relaxation,Karnataka,Summer,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays."
-Kanha National Park,History,Assam,Summer,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits."
-Rameswaram,Relaxation,Karnataka,Spring,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays."
-Konark,Pilgrimage,Kerala,Monsoon,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation."
-Mount Abu,History,Goa,Spring,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Kodaikanal,Pilgrimage,Himachal Pradesh,Winter,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Lonavala,Pilgrimage,Karnataka,Monsoon,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits."
-Shillong,Pilgrimage,Karnataka,Winter,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks."
-Cherrapunji,Nature,Rajasthan,Monsoon,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Lakshadweep,Adventure,Karnataka,Autumn,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Sundarbans,History,Sikkim,Winter,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits."
-Amritsar,Adventure,Karnataka,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Chikmagalur,History,Himachal Pradesh,Spring,"Heritage Walks, Monument Visits","Famous for its historical landmarks and Heritage Walks, Monument Visits."
-Tawang,Adventure,Maharashtra,Winter,"Trekking, Skiing","A thrilling destination offering Trekking, Skiing."
-Kanyakumari,Pilgrimage,Himachal Pradesh,Autumn,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits."
-Haridwar,Relaxation,Goa,Monsoon,"Beach Parties, Yoga","Known for its tranquil atmosphere and Beach Parties, Yoga."
-Pushkar,Relaxation,Karnataka,Winter,"Spa, Beach Parties","Known for its tranquil atmosphere and Spa, Beach Parties."
-Bodh Gaya,Pilgrimage,Gujarat,Summer,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation."
-Bandipur,Pilgrimage,Kerala,Monsoon,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks."
-Jodhpur,Nature,Kerala,Spring,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Bikaner,Nature,Himachal Pradesh,Summer,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating."
-Mahabaleshwar,History,Rajasthan,Winter,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Nainital,Adventure,Tamil Nadu,Spring,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Srinagar,Adventure,Rajasthan,Monsoon,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Pahalgam,Relaxation,Kerala,Winter,"Beach Parties, Yoga","Known for its tranquil atmosphere and Beach Parties, Yoga."
-Alibaug,Relaxation,Tamil Nadu,Autumn,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Ajanta Caves,Pilgrimage,Maharashtra,Summer,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation."
-Pench National Park,Pilgrimage,Maharashtra,Monsoon,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals."
-Chandigarh,History,Rajasthan,Monsoon,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits."
-Patiala,Relaxation,Tamil Nadu,Autumn,"Spa, Beach Parties","Known for its tranquil atmosphere and Spa, Beach Parties."
-Bhuj,Adventure,Karnataka,Autumn,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing."
-Dharamshala,Relaxation,Himachal Pradesh,Monsoon,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays."
-Gangtok,History,Maharashtra,Summer,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks."
-Kochi,Relaxation,Sikkim,Monsoon,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga."
-Thanjavur,History,Gujarat,Summer,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits."
-Madurai,Nature,Uttarakhand,Spring,"Bird Watching, Hiking","A serene spot surrounded by nature, ideal for Bird Watching, Hiking."
-Manali,History,Uttarakhand,Spring,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits."
-Rishikesh,Adventure,Assam,Summer,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting."
-Jaipur,History,Maharashtra,Autumn,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Goa,Relaxation,Rajasthan,Monsoon,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties."
-Kaziranga National Park,Adventure,Karnataka,Winter,"Rafting, Camping","A thrilling destination offering Rafting, Camping."
-Shimla,Relaxation,Gujarat,Summer,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga."
-Varanasi,Adventure,Assam,Summer,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Mysore,Adventure,Maharashtra,Winter,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Udaipur,Relaxation,Rajasthan,Summer,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Pondicherry,History,Assam,Summer,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours."
-Darjeeling,History,Uttarakhand,Spring,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits."
-Leh,Nature,Tamil Nadu,Winter,"Boating, Wildlife Safari","A serene spot surrounded by nature, ideal for Boating, Wildlife Safari."
-Ooty,History,Assam,Winter,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks."
-Agra,Nature,Tamil Nadu,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking."
-Khajuraho,Relaxation,Uttarakhand,Summer,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties."
-Ranthambore,History,Himachal Pradesh,Winter,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours."
-Munnar,History,Rajasthan,Spring,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Hampi,Nature,Himachal Pradesh,Monsoon,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari."
-Jaisalmer,History,Gujarat,Summer,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks."
-Rann of Kutch,Adventure,Tamil Nadu,Winter,"Camping, Rafting","A thrilling destination offering Camping, Rafting."
-Ellora Caves,Adventure,Tamil Nadu,Autumn,"Trekking, Skiing","A thrilling destination offering Trekking, Skiing."
-Alleppey,History,Goa,Autumn,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits."
-Coorg,Adventure,Uttarakhand,Autumn,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting."
-Mahabalipuram,Pilgrimage,Goa,Summer,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals."
-Andaman Islands,Relaxation,Maharashtra,Autumn,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays."
-Gulmarg,Nature,Goa,Summer,"Wildlife Safari, Bird Watching","A serene spot surrounded by nature, ideal for Wildlife Safari, Bird Watching."
-Kanha National Park,History,Himachal Pradesh,Autumn,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits."
-Rameswaram,Pilgrimage,Rajasthan,Monsoon,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks."
-Konark,History,Rajasthan,Autumn,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits."
-Mount Abu,History,Gujarat,Summer,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits."
-Kodaikanal,Adventure,Gujarat,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking."
-Lonavala,Adventure,Maharashtra,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking."
-Shillong,Adventure,Tamil Nadu,Summer,"Rafting, Camping","A thrilling destination offering Rafting, Camping."
-Cherrapunji,History,Uttarakhand,Autumn,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits."
-Lakshadweep,Pilgrimage,Rajasthan,Autumn,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks."
-Sundarbans,History,Assam,Spring,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours."
-Amritsar,Relaxation,Rajasthan,Monsoon,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays."
-Chikmagalur,Relaxation,Kerala,Autumn,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa."
-Tawang,History,Goa,Spring,"Museum Visits, Fort Tours","Famous for its historical landmarks and Museum Visits, Fort Tours."
-Kanyakumari,Relaxation,Tamil Nadu,Spring,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties."
-Haridwar,Nature,Goa,Winter,"Boating, Wildlife Safari","A serene spot surrounded by nature, ideal for Boating, Wildlife Safari."
-Pushkar,Pilgrimage,Karnataka,Spring,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation."
-Bodh Gaya,Nature,Assam,Autumn,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating."
-Bandipur,Adventure,Rajasthan,Autumn,"Skiing, Trekking","A thrilling destination offering Skiing, Trekking."
-Jodhpur,Nature,Kerala,Winter,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching."
-Bikaner,Adventure,Karnataka,Monsoon,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting."
-Mahabaleshwar,Pilgrimage,Maharashtra,Winter,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation."
-Nainital,Pilgrimage,Maharashtra,Autumn,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits."
-Srinagar,Nature,Assam,Spring,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari."
-Pahalgam,Adventure,Assam,Winter,"Skiing, Camping","A thrilling destination offering Skiing, Camping."
-Alibaug,Nature,Gujarat,Summer,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating."
-Ajanta Caves,Pilgrimage,Karnataka,Autumn,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks."
-Pench National Park,Nature,Himachal Pradesh,Winter,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari."
-Chandigarh,Relaxation,Goa,Summer,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga."
-Patiala,Relaxation,Himachal Pradesh,Monsoon,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga."
-Bhuj,Nature,Rajasthan,Monsoon,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking."
+Place,Type,Location,Best Season,Activities,Description,Rating
+Manali,Adventure,Himachal Pradesh,Winter,"Trekking, Skiing",A popular hill station known for snow sports and scenic views.,4.7
+Rishikesh,Pilgrimage,Uttarakhand,Spring,"River Rafting, Meditation","Known as the Yoga Capital of the World, also famous for adventure sports.",3.8
+Jaipur,History,Rajasthan,Winter,"Fort Tours, Museums",The Pink City offers a glimpse into India’s rich royal heritage., 4.2
+Goa,Relaxation,Goa,Winter,"Beach Parties, Water Sports","A coastal destination famous for beaches, nightlife, and Portuguese heritage.", 2.5
+Kaziranga National Park,Nature,Assam,Winter,"Wildlife Safari, Bird Watching",Home to the one-horned rhinoceros and diverse wildlife., 4.2
+Shimla,Nature,Uttarakhand,Winter,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking.", 4.5
+Varanasi,Adventure,Gujarat,Spring,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 3.9
+Mysore,History,Kerala,Summer,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks.", 3.7
+Udaipur,Relaxation,Karnataka,Winter,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 4.5
+Pondicherry,History,Sikkim,Winter,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits.", 4.2
+Darjeeling,Relaxation,Karnataka,Summer,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties.", 4.5
+Leh,Nature,Rajasthan,Monsoon,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.5
+Ooty,Adventure,Maharashtra,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 5.0
+Agra,Adventure,Maharashtra,Winter,"Trekking, Camping","A thrilling destination offering Trekking, Camping.", 4.7
+Khajuraho,Pilgrimage,Assam,Summer,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks.", 4.2
+Ranthambore,Relaxation,Tamil Nadu,Spring,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 4.5
+Munnar,Pilgrimage,Himachal Pradesh,Monsoon,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks.", 3.7
+Hampi,Nature,Assam,Autumn,"Boating, Wildlife Safari","A serene spot surrounded by nature, ideal for Boating, Wildlife Safari.", 5.0
+Jaisalmer,Adventure,Assam,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 3.9
+Rann of Kutch,Pilgrimage,Gujarat,Monsoon,"Meditation, Temple Visits","A sacred place attracting pilgrims for Meditation, Temple Visits.", 4.2
+Ellora Caves,Relaxation,Kerala,Autumn,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 4.5
+Alleppey,Nature,Gujarat,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.4
+Coorg,History,Uttarakhand,Autumn,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 4.2
+Mahabalipuram,History,Assam,Monsoon,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits.", 3.8
+Andaman Islands,Relaxation,Goa,Summer,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays.", 4.5
+Gulmarg,Pilgrimage,Himachal Pradesh,Autumn,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 4.2
+Kanha National Park,Relaxation,Uttarakhand,Spring,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 4.5
+Rameswaram,Relaxation,Uttarakhand,Autumn,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays.", 4.2
+Konark,Pilgrimage,Assam,Autumn,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals.", 4.9
+Mount Abu,Adventure,Kerala,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.5
+Kodaikanal,History,Tamil Nadu,Autumn,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks.", 5.0
+Lonavala,Adventure,Goa,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 4.6
+Shillong,Relaxation,Maharashtra,Monsoon,"Spa, Beach Parties","Known for its tranquil atmosphere and Spa, Beach Parties.", 4.5
+Cherrapunji,Nature,Karnataka,Summer,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating.", 4.3
+Lakshadweep,Relaxation,Assam,Summer,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 4.5
+Sundarbans,History,Assam,Monsoon,"Museum Visits, Fort Tours","Famous for its historical landmarks and Museum Visits, Fort Tours.", 3.7
+Amritsar,Relaxation,Kerala,Monsoon,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays.", 4.5
+Chikmagalur,Pilgrimage,Rajasthan,Spring,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits.", 2.8
+Tawang,Pilgrimage,Goa,Summer,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 5.0
+Kanyakumari,Relaxation,Tamil Nadu,Monsoon,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 4.5
+Haridwar,History,Himachal Pradesh,Monsoon,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits.", 4.0
+Pushkar,Pilgrimage,Karnataka,Monsoon,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation.", 4.5
+Bodh Gaya,History,Rajasthan,Winter,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits.", 4.2
+Bandipur,History,Rajasthan,Monsoon,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours.", 3.7
+Jodhpur,Nature,Sikkim,Autumn,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking.", 4.5
+Bikaner,Pilgrimage,Sikkim,Winter,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation.", 2.9
+Mahabaleshwar,Adventure,Sikkim,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 3.0
+Nainital,Adventure,Kerala,Winter,"Skiing, Trekking","A thrilling destination offering Skiing, Trekking.", 4.2
+Srinagar,Adventure,Tamil Nadu,Summer,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.0
+Pahalgam,Pilgrimage,Rajasthan,Summer,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 4.2
+Alibaug,Nature,Tamil Nadu,Summer,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating.", 3.4
+Ajanta Caves,Adventure,Uttarakhand,Autumn,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 4.9
+Pench National Park,Nature,Kerala,Autumn,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching.", 4.5
+Chandigarh,Nature,Uttarakhand,Autumn,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching.", 5.9
+Patiala,Adventure,Himachal Pradesh,Winter,"Skiing, Camping","A thrilling destination offering Skiing, Camping.", 4.2
+Bhuj,Adventure,Maharashtra,Winter,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 3.0
+Dharamshala,Nature,Uttarakhand,Spring,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating.", 4.5
+Gangtok,History,Rajasthan,Spring,"Museum Visits, Fort Tours","Famous for its historical landmarks and Museum Visits, Fort Tours.", 2.5
+Kochi,Adventure,Maharashtra,Spring,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing.", 3.0
+Thanjavur,History,Uttarakhand,Spring,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks.", 2.5
+Madurai,Nature,Maharashtra,Autumn,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.2
+Manali,Relaxation,Sikkim,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 3.0
+Rishikesh,Nature,Kerala,Autumn,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.", 2.5
+Jaipur,Nature,Kerala,Spring,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking.", 2.5
+Goa,Adventure,Himachal Pradesh,Summer,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting.", 3.0
+Kaziranga National Park,Nature,Himachal Pradesh,Summer,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating.", 2.5
+Shimla,Nature,Karnataka,Monsoon,"Wildlife Safari, Bird Watching","A serene spot surrounded by nature, ideal for Wildlife Safari, Bird Watching.", 2.5
+Varanasi,Relaxation,Rajasthan,Summer,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays.", 3.0
+Mysore,History,Goa,Summer,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks.", 4.2
+Udaipur,Relaxation,Kerala,Summer,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays.", 2.5
+Pondicherry,Relaxation,Sikkim,Summer,"Beach Parties, Spa","Known for its tranquil atmosphere and Beach Parties, Spa.", 3.0
+Darjeeling,History,Himachal Pradesh,Monsoon,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks.", 4.2
+Leh,History,Himachal Pradesh,Summer,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 2.5
+Ooty,Pilgrimage,Assam,Spring,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits.", 3.0
+Agra,Pilgrimage,Sikkim,Summer,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits.", 4.2
+Khajuraho,Relaxation,Uttarakhand,Summer,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays.", 2.5
+Ranthambore,History,Karnataka,Monsoon,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours.", 4.5
+Munnar,Pilgrimage,Gujarat,Winter,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation.", 3.0
+Hampi,Nature,Rajasthan,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.2
+Jaisalmer,Adventure,Uttarakhand,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 3.0
+Rann of Kutch,Nature,Rajasthan,Monsoon,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching.", 3.0
+Ellora Caves,Pilgrimage,Gujarat,Monsoon,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation.", 2.5
+Alleppey,Nature,Gujarat,Winter,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.", 2.5
+Coorg,History,Gujarat,Autumn,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 4.2
+Mahabalipuram,History,Karnataka,Autumn,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 2.5
+Andaman Islands,Pilgrimage,Gujarat,Winter,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits.", 4.5
+Gulmarg,Nature,Himachal Pradesh,Winter,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari.", 4.5
+Kanha National Park,Relaxation,Rajasthan,Spring,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties.", 2.5
+Rameswaram,Nature,Uttarakhand,Winter,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating.", 3.0
+Konark,Relaxation,Assam,Autumn,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties.", 2.9
+Mount Abu,Relaxation,Assam,Spring,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 4.2
+Kodaikanal,Nature,Sikkim,Summer,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari.", 2.5
+Lonavala,Adventure,Kerala,Autumn,"Rafting, Camping","A thrilling destination offering Rafting, Camping.", 4.2
+Shillong,Pilgrimage,Assam,Summer,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation.", 4.2
+Cherrapunji,History,Goa,Autumn,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits.", 3.0
+Lakshadweep,History,Rajasthan,Summer,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits.", 2.5
+Sundarbans,Relaxation,Karnataka,Autumn,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 2.5
+Amritsar,Nature,Himachal Pradesh,Summer,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking.", 4.2
+Chikmagalur,History,Tamil Nadu,Monsoon,"Heritage Walks, Monument Visits","Famous for its historical landmarks and Heritage Walks, Monument Visits.", 3.0
+Tawang,Relaxation,Tamil Nadu,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 3.9
+Kanyakumari,Nature,Uttarakhand,Winter,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.", 4.5
+Haridwar,Pilgrimage,Karnataka,Summer,"Pilgrim Walks, Religious Rituals","A sacred place attracting pilgrims for Pilgrim Walks, Religious Rituals.", 2.5
+Pushkar,History,Sikkim,Summer,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 4.2
+Bodh Gaya,Pilgrimage,Maharashtra,Autumn,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks.", 3.0
+Bandipur,Relaxation,Gujarat,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 4.2
+Jodhpur,History,Sikkim,Monsoon,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks.", 3.9
+Bikaner,Adventure,Uttarakhand,Spring,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 4.5
+Mahabaleshwar,Nature,Karnataka,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.2
+Nainital,Nature,Rajasthan,Winter,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 3.0
+Srinagar,Relaxation,Maharashtra,Winter,"Beach Parties, Spa","Known for its tranquil atmosphere and Beach Parties, Spa.", 4.2
+Pahalgam,Adventure,Assam,Monsoon,"Skiing, Camping","A thrilling destination offering Skiing, Camping.", 4.5
+Alibaug,History,Kerala,Monsoon,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks.", 3.0
+Ajanta Caves,Relaxation,Goa,Monsoon,"Beach Parties, Yoga","Known for its tranquil atmosphere and Beach Parties, Yoga.", 4.2
+Pench National Park,Adventure,Karnataka,Autumn,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 2.5
+Chandigarh,Pilgrimage,Tamil Nadu,Autumn,"Pilgrim Walks, Meditation","A sacred place attracting pilgrims for Pilgrim Walks, Meditation.", 3.9
+Patiala,Relaxation,Karnataka,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 3.0
+Bhuj,Pilgrimage,Gujarat,Autumn,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 4.5
+Dharamshala,Nature,Sikkim,Autumn,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari.", 3.0
+Gangtok,Pilgrimage,Gujarat,Spring,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits.", 4.0
+Kochi,Nature,Assam,Winter,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching.", 4.2
+Thanjavur,Nature,Gujarat,Autumn,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating.", 4.0
+Madurai,Pilgrimage,Himachal Pradesh,Winter,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation.", 4.2
+Manali,Adventure,Uttarakhand,Spring,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 4.5
+Rishikesh,Pilgrimage,Gujarat,Winter,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals.", 4.0
+Jaipur,Pilgrimage,Sikkim,Winter,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits.", 4.0
+Goa,History,Gujarat,Autumn,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits.", 4.2
+Kaziranga National Park,Nature,Gujarat,Summer,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari.", 3.0
+Shimla,Relaxation,Sikkim,Autumn,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays.", 3.0
+Varanasi,History,Gujarat,Autumn,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks.", 4.0
+Mysore,Adventure,Goa,Summer,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.1
+Udaipur,Adventure,Goa,Summer,"Camping, Skiing","A thrilling destination offering Camping, Skiing.", 4.2
+Pondicherry,Pilgrimage,Maharashtra,Monsoon,"Temple Visits, Pilgrim Walks","A sacred place attracting pilgrims for Temple Visits, Pilgrim Walks.", 4.0
+Darjeeling,Nature,Himachal Pradesh,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 3.0
+Leh,History,Sikkim,Spring,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 4.5
+Ooty,Pilgrimage,Rajasthan,Autumn,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits.", 4.2
+Agra,Adventure,Rajasthan,Autumn,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 4.0
+Khajuraho,History,Himachal Pradesh,Summer,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits.", 4.2
+Ranthambore,Nature,Rajasthan,Winter,"Hiking, Boating","A serene spot surrounded by nature, ideal for Hiking, Boating.", 4.5
+Munnar,Nature,Goa,Winter,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching.", 4.0
+Hampi,Adventure,Kerala,Monsoon,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 3.0
+Jaisalmer,Adventure,Tamil Nadu,Spring,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 3.0
+Rann of Kutch,History,Gujarat,Monsoon,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 4.0
+Ellora Caves,Relaxation,Maharashtra,Summer,"Beach Parties, Spa","Known for its tranquil atmosphere and Beach Parties, Spa.", 4.2
+Alleppey,Nature,Uttarakhand,Winter,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.", 4.0
+Coorg,History,Goa,Monsoon,"Monument Visits, Heritage Walks","Famous for its historical landmarks and Monument Visits, Heritage Walks.", 3.9
+Mahabalipuram,Adventure,Himachal Pradesh,Monsoon,"Camping, Skiing","A thrilling destination offering Camping, Skiing.", 4.0
+Andaman Islands,Relaxation,Rajasthan,Autumn,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays.", 4.5
+Gulmarg,Pilgrimage,Tamil Nadu,Autumn,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation.", 3.9
+Kanha National Park,Adventure,Rajasthan,Autumn,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 4.0
+Rameswaram,Relaxation,Uttarakhand,Winter,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga.", 4.5
+Konark,History,Uttarakhand,Summer,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 4.2
+Mount Abu,History,Sikkim,Winter,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours.", 4.0
+Kodaikanal,Nature,Karnataka,Autumn,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.", 4.2
+Lonavala,Relaxation,Maharashtra,Winter,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga.", 4.2
+Shillong,Adventure,Maharashtra,Spring,"Skiing, Camping","A thrilling destination offering Skiing, Camping.", 4.0
+Cherrapunji,Nature,Tamil Nadu,Autumn,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari.", 4.5
+Lakshadweep,Relaxation,Himachal Pradesh,Spring,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties.", 3.0
+Sundarbans,Pilgrimage,Rajasthan,Autumn,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals.", 3.9
+Amritsar,History,Himachal Pradesh,Monsoon,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits.", 4.2
+Chikmagalur,Relaxation,Sikkim,Spring,"Resort Stays, Spa","Known for its tranquil atmosphere and Resort Stays, Spa.", 4.0
+Tawang,Adventure,Tamil Nadu,Monsoon,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 3.0
+Kanyakumari,History,Tamil Nadu,Spring,"Heritage Walks, Monument Visits","Famous for its historical landmarks and Heritage Walks, Monument Visits.", 3.9
+Haridwar,Relaxation,Maharashtra,Spring,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga.", 3.0
+Pushkar,Relaxation,Himachal Pradesh,Autumn,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga.", 4.0
+Bodh Gaya,Pilgrimage,Assam,Autumn,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks.", 3.9
+Bandipur,Adventure,Maharashtra,Autumn,"Camping, Skiing","A thrilling destination offering Camping, Skiing.", 4.2
+Jodhpur,Nature,Assam,Spring,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching.", 4.5
+Bikaner,Relaxation,Assam,Winter,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 3.0
+Mahabaleshwar,Adventure,Goa,Spring,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing.", 4.1
+Nainital,Nature,Goa,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.2
+Srinagar,Pilgrimage,Karnataka,Winter,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits.", 4.2
+Pahalgam,History,Maharashtra,Winter,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 3.0
+Alibaug,Adventure,Uttarakhand,Summer,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 4.5
+Ajanta Caves,Adventure,Karnataka,Spring,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing.", 4.3
+Pench National Park,Adventure,Himachal Pradesh,Summer,"Skiing, Trekking","A thrilling destination offering Skiing, Trekking.",4.0
+Chandigarh,Adventure,Gujarat,Summer,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 3.0
+Patiala,Adventure,Uttarakhand,Winter,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 4.5
+Bhuj,Relaxation,Tamil Nadu,Winter,"Resort Stays, Spa","Known for its tranquil atmosphere and Resort Stays, Spa.", 3.0
+Dharamshala,Relaxation,Rajasthan,Autumn,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga.", 4.5
+Gangtok,Nature,Kerala,Winter,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking.", 3.9
+Kochi,Adventure,Sikkim,Monsoon,"Skiing, Camping","A thrilling destination offering Skiing, Camping.", 4.1
+Thanjavur,Nature,Rajasthan,Spring,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari.", 3.9
+Madurai,Adventure,Karnataka,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.5
+Manali,Pilgrimage,Rajasthan,Summer,"Temple Visits, Pilgrim Walks","A sacred place attracting pilgrims for Temple Visits, Pilgrim Walks.", 4.2
+Rishikesh,Pilgrimage,Sikkim,Spring,"Religious Rituals, Temple Visits","A sacred place attracting pilgrims for Religious Rituals, Temple Visits.", 4.5
+Jaipur,Nature,Gujarat,Summer,"Wildlife Safari, Bird Watching","A serene spot surrounded by nature, ideal for Wildlife Safari, Bird Watching.", 3.0
+Goa,Pilgrimage,Assam,Autumn,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 5.0
+Kaziranga National Park,Nature,Uttarakhand,Spring,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari.", 4.8
+Shimla,Adventure,Tamil Nadu,Monsoon,"Skiing, Camping","A thrilling destination offering Skiing, Camping.", 4.5
+Varanasi,Nature,Himachal Pradesh,Autumn,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 4.5
+Mysore,Adventure,Karnataka,Monsoon,"Camping, Skiing","A thrilling destination offering Camping, Skiing.", 3.0
+Udaipur,History,Goa,Spring,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 4.5
+Pondicherry,Relaxation,Rajasthan,Monsoon,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 3.0
+Darjeeling,Relaxation,Karnataka,Spring,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 2.6
+Leh,Adventure,Uttarakhand,Summer,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 4.8
+Ooty,Nature,Rajasthan,Winter,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari.", 3.0
+Agra,Adventure,Rajasthan,Monsoon,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting.", 4.5
+Khajuraho,Relaxation,Gujarat,Winter,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga.", 4.2
+Ranthambore,History,Tamil Nadu,Monsoon,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits.", 4.5
+Munnar,Relaxation,Himachal Pradesh,Winter,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 3.0
+Hampi,Pilgrimage,Himachal Pradesh,Spring,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks.", 4.3
+Jaisalmer,Relaxation,Maharashtra,Autumn,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 3.0
+Rann of Kutch,Nature,Karnataka,Summer,"Hiking, Bird Watching","A serene spot surrounded by nature, ideal for Hiking, Bird Watching.", 3.9
+Ellora Caves,Relaxation,Kerala,Spring,"Resort Stays, Spa","Known for its tranquil atmosphere and Resort Stays, Spa.", 2.7
+Alleppey,Pilgrimage,Tamil Nadu,Autumn,"Pilgrim Walks, Religious Rituals","A sacred place attracting pilgrims for Pilgrim Walks, Religious Rituals.", 4.5
+Coorg,Pilgrimage,Rajasthan,Winter,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks.", 3.0
+Mahabalipuram,Adventure,Maharashtra,Winter,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting.", 5.0
+Andaman Islands,Nature,Goa,Spring,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari.", 3.0
+Gulmarg,Relaxation,Karnataka,Summer,"Yoga, Resort Stays","Known for its tranquil atmosphere and Yoga, Resort Stays.", 2.7
+Kanha National Park,History,Assam,Summer,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits.", 4.5
+Rameswaram,Relaxation,Karnataka,Spring,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays.", 5.0
+Konark,Pilgrimage,Kerala,Monsoon,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation.", 2.7
+Mount Abu,History,Goa,Spring,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 3.9
+Kodaikanal,Pilgrimage,Himachal Pradesh,Winter,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 3.0
+Lonavala,Pilgrimage,Karnataka,Monsoon,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits.", 2.7
+Shillong,Pilgrimage,Karnataka,Winter,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks.", 4.5
+Cherrapunji,Nature,Rajasthan,Monsoon,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 2.7
+Lakshadweep,Adventure,Karnataka,Autumn,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 3.0
+Sundarbans,History,Sikkim,Winter,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits.", 4.5
+Amritsar,Adventure,Karnataka,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.6
+Chikmagalur,History,Himachal Pradesh,Spring,"Heritage Walks, Monument Visits","Famous for its historical landmarks and Heritage Walks, Monument Visits.", 3.9
+Tawang,Adventure,Maharashtra,Winter,"Trekking, Skiing","A thrilling destination offering Trekking, Skiing.", 3.0
+Kanyakumari,Pilgrimage,Himachal Pradesh,Autumn,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits.", 4.5
+Haridwar,Relaxation,Goa,Monsoon,"Beach Parties, Yoga","Known for its tranquil atmosphere and Beach Parties, Yoga.", 3.0
+Pushkar,Relaxation,Karnataka,Winter,"Spa, Beach Parties","Known for its tranquil atmosphere and Spa, Beach Parties.", 3.0
+Bodh Gaya,Pilgrimage,Gujarat,Summer,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation.", 3.9
+Bandipur,Pilgrimage,Kerala,Monsoon,"Religious Rituals, Pilgrim Walks","A sacred place attracting pilgrims for Religious Rituals, Pilgrim Walks.", 4.5
+Jodhpur,Nature,Kerala,Spring,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.", 5.0
+Bikaner,Nature,Himachal Pradesh,Summer,"Wildlife Safari, Boating","A serene spot surrounded by nature, ideal for Wildlife Safari, Boating.",4.8
+Mahabaleshwar,History,Rajasthan,Winter,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 3.9
+Nainital,Adventure,Tamil Nadu,Spring,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 2.9
+Srinagar,Adventure,Rajasthan,Monsoon,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 4.7
+Pahalgam,Relaxation,Kerala,Winter,"Beach Parties, Yoga","Known for its tranquil atmosphere and Beach Parties, Yoga.", 4.5
+Alibaug,Relaxation,Tamil Nadu,Autumn,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 4.9
+Ajanta Caves,Pilgrimage,Maharashtra,Summer,"Religious Rituals, Meditation","A sacred place attracting pilgrims for Religious Rituals, Meditation.", 4.5
+Pench National Park,Pilgrimage,Maharashtra,Monsoon,"Meditation, Religious Rituals","A sacred place attracting pilgrims for Meditation, Religious Rituals.", 3.9
+Chandigarh,History,Rajasthan,Monsoon,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits.", 4.5
+Patiala,Relaxation,Tamil Nadu,Autumn,"Spa, Beach Parties","Known for its tranquil atmosphere and Spa, Beach Parties.", 5.0
+Bhuj,Adventure,Karnataka,Autumn,"Rafting, Skiing","A thrilling destination offering Rafting, Skiing.", 5.0
+Dharamshala,Relaxation,Himachal Pradesh,Monsoon,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays.", 3.9
+Gangtok,History,Maharashtra,Summer,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks.", 4.5
+Kochi,Relaxation,Sikkim,Monsoon,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga.", 4.7
+Thanjavur,History,Gujarat,Summer,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits.", 4.7
+Madurai,Nature,Uttarakhand,Spring,"Bird Watching, Hiking","A serene spot surrounded by nature, ideal for Bird Watching, Hiking.", 3.9
+Manali,History,Uttarakhand,Spring,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits.", 4.2
+Rishikesh,Adventure,Assam,Summer,"Skiing, Rafting","A thrilling destination offering Skiing, Rafting.", 4.5
+Jaipur,History,Maharashtra,Autumn,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 4.5
+Goa,Relaxation,Rajasthan,Monsoon,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties.", 3.8
+Kaziranga National Park,Adventure,Karnataka,Winter,"Rafting, Camping","A thrilling destination offering Rafting, Camping.", 4.5
+Shimla,Relaxation,Gujarat,Summer,"Spa, Yoga","Known for its tranquil atmosphere and Spa, Yoga.", 3.9
+Varanasi,Adventure,Assam,Summer,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 3.7
+Mysore,Adventure,Maharashtra,Winter,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.5
+Udaipur,Relaxation,Rajasthan,Summer,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 3.5
+Pondicherry,History,Assam,Summer,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours.", 3.9
+Darjeeling,History,Uttarakhand,Spring,"Fort Tours, Museum Visits","Famous for its historical landmarks and Fort Tours, Museum Visits.", 4.5
+Leh,Nature,Tamil Nadu,Winter,"Boating, Wildlife Safari","A serene spot surrounded by nature, ideal for Boating, Wildlife Safari.", 5.0
+Ooty,History,Assam,Winter,"Fort Tours, Heritage Walks","Famous for its historical landmarks and Fort Tours, Heritage Walks.", 3.8
+Agra,Nature,Tamil Nadu,Spring,"Wildlife Safari, Hiking","A serene spot surrounded by nature, ideal for Wildlife Safari, Hiking.", 3.3
+Khajuraho,Relaxation,Uttarakhand,Summer,"Resort Stays, Beach Parties","Known for its tranquil atmosphere and Resort Stays, Beach Parties.", 4.2
+Ranthambore,History,Himachal Pradesh,Winter,"Heritage Walks, Fort Tours","Famous for its historical landmarks and Heritage Walks, Fort Tours.", 4.5
+Munnar,History,Rajasthan,Spring,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 3.9
+Hampi,Nature,Himachal Pradesh,Monsoon,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari.", 4.0
+Jaisalmer,History,Gujarat,Summer,"Museum Visits, Heritage Walks","Famous for its historical landmarks and Museum Visits, Heritage Walks.", 4.6
+Rann of Kutch,Adventure,Tamil Nadu,Winter,"Camping, Rafting","A thrilling destination offering Camping, Rafting.", 3.0
+Ellora Caves,Adventure,Tamil Nadu,Autumn,"Trekking, Skiing","A thrilling destination offering Trekking, Skiing.", 3.9
+Alleppey,History,Goa,Autumn,"Museum Visits, Monument Visits","Famous for its historical landmarks and Museum Visits, Monument Visits.", 4.5
+Coorg,Adventure,Uttarakhand,Autumn,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting.", 4.9
+Mahabalipuram,Pilgrimage,Goa,Summer,"Temple Visits, Religious Rituals","A sacred place attracting pilgrims for Temple Visits, Religious Rituals.", 4.5
+Andaman Islands,Relaxation,Maharashtra,Autumn,"Beach Parties, Resort Stays","Known for its tranquil atmosphere and Beach Parties, Resort Stays.", 3.9
+Gulmarg,Nature,Goa,Summer,"Wildlife Safari, Bird Watching","A serene spot surrounded by nature, ideal for Wildlife Safari, Bird Watching.", 4.0
+Kanha National Park,History,Himachal Pradesh,Autumn,"Heritage Walks, Museum Visits","Famous for its historical landmarks and Heritage Walks, Museum Visits.", 4.8
+Rameswaram,Pilgrimage,Rajasthan,Monsoon,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks.", 4.5
+Konark,History,Rajasthan,Autumn,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits.", 4.9
+Mount Abu,History,Gujarat,Summer,"Fort Tours, Monument Visits","Famous for its historical landmarks and Fort Tours, Monument Visits.", 3.9
+Kodaikanal,Adventure,Gujarat,Spring,"Camping, Trekking","A thrilling destination offering Camping, Trekking.", 4.5
+Lonavala,Adventure,Maharashtra,Autumn,"Rafting, Trekking","A thrilling destination offering Rafting, Trekking.", 4.1
+Shillong,Adventure,Tamil Nadu,Summer,"Rafting, Camping","A thrilling destination offering Rafting, Camping.", 3.9
+Cherrapunji,History,Uttarakhand,Autumn,"Monument Visits, Museum Visits","Famous for its historical landmarks and Monument Visits, Museum Visits.", 3.9
+Lakshadweep,Pilgrimage,Rajasthan,Autumn,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks.", 5.0
+Sundarbans,History,Assam,Spring,"Monument Visits, Fort Tours","Famous for its historical landmarks and Monument Visits, Fort Tours.", 4.5
+Amritsar,Relaxation,Rajasthan,Monsoon,"Spa, Resort Stays","Known for its tranquil atmosphere and Spa, Resort Stays.", 1.3
+Chikmagalur,Relaxation,Kerala,Autumn,"Yoga, Spa","Known for its tranquil atmosphere and Yoga, Spa.", 4.5
+Tawang,History,Goa,Spring,"Museum Visits, Fort Tours","Famous for its historical landmarks and Museum Visits, Fort Tours.", 4.5
+Kanyakumari,Relaxation,Tamil Nadu,Spring,"Yoga, Beach Parties","Known for its tranquil atmosphere and Yoga, Beach Parties.", 2.8
+Haridwar,Nature,Goa,Winter,"Boating, Wildlife Safari","A serene spot surrounded by nature, ideal for Boating, Wildlife Safari.", 3.4
+Pushkar,Pilgrimage,Karnataka,Spring,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation.", 3.7
+Bodh Gaya,Nature,Assam,Autumn,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating.", 2.5
+Bandipur,Adventure,Rajasthan,Autumn,"Skiing, Trekking","A thrilling destination offering Skiing, Trekking.", 4.0
+Jodhpur,Nature,Kerala,Winter,"Boating, Bird Watching","A serene spot surrounded by nature, ideal for Boating, Bird Watching.", 4.5
+Bikaner,Adventure,Karnataka,Monsoon,"Trekking, Rafting","A thrilling destination offering Trekking, Rafting.", 4.5
+Mahabaleshwar,Pilgrimage,Maharashtra,Winter,"Temple Visits, Meditation","A sacred place attracting pilgrims for Temple Visits, Meditation.", 3.9
+Nainital,Pilgrimage,Maharashtra,Autumn,"Pilgrim Walks, Temple Visits","A sacred place attracting pilgrims for Pilgrim Walks, Temple Visits.", 4.1
+Srinagar,Nature,Assam,Spring,"Hiking, Wildlife Safari","A serene spot surrounded by nature, ideal for Hiking, Wildlife Safari.", 3.4
+Pahalgam,Adventure,Assam,Winter,"Skiing, Camping","A thrilling destination offering Skiing, Camping.", 4.3
+Alibaug,Nature,Gujarat,Summer,"Bird Watching, Boating","A serene spot surrounded by nature, ideal for Bird Watching, Boating.", 4.5
+Ajanta Caves,Pilgrimage,Karnataka,Autumn,"Meditation, Pilgrim Walks","A sacred place attracting pilgrims for Meditation, Pilgrim Walks.", 3.9
+Pench National Park,Nature,Himachal Pradesh,Winter,"Bird Watching, Wildlife Safari","A serene spot surrounded by nature, ideal for Bird Watching, Wildlife Safari.", 3.5
+Chandigarh,Relaxation,Goa,Summer,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga.", 4.9
+Patiala,Relaxation,Himachal Pradesh,Monsoon,"Resort Stays, Yoga","Known for its tranquil atmosphere and Resort Stays, Yoga.", 3.9
+Bhuj,Nature,Rajasthan,Monsoon,"Boating, Hiking","A serene spot surrounded by nature, ideal for Boating, Hiking.", 4.5

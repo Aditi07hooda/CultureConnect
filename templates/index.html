@@ -105,7 +105,7 @@
       <!-- Recommendations Section -->
       {% if recommendations %}
       <div class="my-5">
-        <h2>Recommended Places:</h2>
+        <h2>{{message}}</h2>
         <div class="row">
           {% for place in recommendations %}
           <div class="col-md-4 mb-4">
@@ -140,11 +140,6 @@
         </nav>
         {% endif %}
       </div>
-      {% endif %}
-
-      <!-- Error Message -->
-      {% if message %}
-      <div class="alert alert-danger mt-3 text-center">{{ message }}</div>
       {% endif %}
     </div>
 
