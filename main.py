@@ -5,45 +5,72 @@ import pandas as pd
 from auth import auth
 from db_config import init_db
 
-# Flask app
 app = Flask(__name__)
 app.secret_key = "qwertyuioplkjhgfdsazxcvbnm"
 init_db(app)
 
-app.register_blueprint(auth, url_prefix='/auth')
+app.register_blueprint(auth, url_prefix="/auth")
 
 # Load dataset
 places_df = pd.read_csv("Tourist_Places_India.csv")
-places_df = places_df.dropna(subset=["Rating"])  # Ensure no NaN values in 'Rating'
-places_df["Rating"] = pd.to_numeric(places_df["Rating"], errors="coerce")  # Ensure numeric ratings
+places_df = places_df.dropna(subset=["Rating"])
+places_df["Rating"] = pd.to_numeric(places_df["Rating"], errors="coerce")
 
 
 # Helper function to filter recommendations
-def recommend_places(location=None, place_type=None, activity=None, season=None):
+def recommend_places(
+    site_name, place, location, activity, price, place_type, season, festival, ratings
+):
     filtered_df = places_df.copy()
 
     # Clean the data by stripping whitespace
-    for column in ["Location", "Type", "Activities", "Best Season"]:
+    for column in [
+        "Location",
+        "Type",
+        "Activities",
+        "Best Season",
+        "name",
+        "place",
+        "festival",
+    ]:
         if column in filtered_df:
             filtered_df[column] = filtered_df[column].str.strip()
 
     # Apply filters based on user input
+    if site_name:
+        filtered_df = filtered_df[
+            filtered_df["name"].str.contains(site_name, case=False, na=False)
+        ]
+    if place:
+        filtered_df = filtered_df[
+            filtered_df["place"].str.contains(place, case=False, na=False)
+        ]
     if location:
         filtered_df = filtered_df[
-            filtered_df["Location"].str.contains(location.strip(), case=False, na=False)
-        ]
-    if place_type:
-        filtered_df = filtered_df[
-            filtered_df["Type"].str.contains(place_type.strip(), case=False, na=False)
+            filtered_df["Location"].str.contains(location, case=False, na=False)
         ]
     if activity:
         filtered_df = filtered_df[
-            filtered_df["Activities"].str.contains(activity.strip(), case=False, na=False)
+            filtered_df["Activities"].str.contains(activity, case=False, na=False)
+        ]
+    if place_type:
+        filtered_df = filtered_df[
+            filtered_df["Type"].str.contains(place_type, case=False, na=False)
         ]
     if season:
         filtered_df = filtered_df[
-            filtered_df["Best Season"].str.contains(season.strip(), case=False, na=False)
+            filtered_df["Best Season"].str.contains(season, case=False, na=False)
         ]
+    if festival:
+        filtered_df = filtered_df[
+            filtered_df["festival"].str.contains(festival, case=False, na=False)
+        ]
+    if ratings:
+        filtered_df = filtered_df[filtered_df["Rating"] >= float(ratings)]
+    if price:
+        filtered_df = filtered_df[
+            filtered_df["price per night"] <= float(price)
+        ]  # Changed to allow searching under budget
 
     return filtered_df
 
@@ -51,83 +78,84 @@ def recommend_places(location=None, place_type=None, activity=None, season=None)
 # Routes
 @app.route("/")
 def index():
-    print(session)
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
-    
-    trending_places = places_df.nlargest(10, "Rating").to_dict(orient="records")  # Top 10 by rating
+    if "user_id" not in session:
+        return redirect(url_for("auth.login"))
+
+    trending_places = places_df.nlargest(10, "Rating").to_dict(orient="records")
     message = "Trending tourist places:"
-    return render_template("index.html", recommendations=trending_places, message=message)
+    return render_template(
+        "index.html", recommendations=trending_places, message=message
+    )
 
 
 @app.route("/recommend", methods=["GET", "POST"])
 def recommend():
-    if 'user_id' not in session:
-        return redirect(url_for('login'))
-    
-    recommendations = pd.DataFrame()
-    pagination = None
-    location = place_type = activity = season = None
+    if "user_id" not in session:
+        return redirect(url_for("auth.login"))
+
     message = ""
+
+    # Retrieve stored recommendations from the session or initialize as empty
+    if "recommendations" in session:
+        recommendations = session["recommendations"]
+    else:
+        recommendations = pd.DataFrame()
 
     if request.method == "POST":
         # Get form data
+        site_name = request.form.get("site_name")
+        place = request.form.get("place")
         location = request.form.get("location")
-        place_type = request.form.get("place_type")
         activity = request.form.get("activity")
+        price = request.form.get("price")
+        place_type = request.form.get("place_type")
         season = request.form.get("season")
+        festival = request.form.get("festival")
+        ratings = request.form.get("ratings")
 
-        # If no input provided, show top 10 trending places
-        if not (location or place_type or activity or season):
-            recommendations = places_df.nlargest(10, "Rating")
-            message = "Trending tourist places:"
-        else:
-            # Get recommendations
-            recommendations = recommend_places(
-                location=location,
-                place_type=place_type,
-                activity=activity,
-                season=season,
-            )
+        # Get recommendations
+        recommendations = recommend_places(
+            site_name=site_name,
+            place=place,
+            location=location,
+            activity=activity,
+            price=price,
+            place_type=place_type,
+            season=season,
+            festival=festival,
+            ratings=ratings,
+        ).to_dict(orient="records")
 
-            # If no recommendations found, fallback to 10 random related places
-            if recommendations.empty:
-                recommendations = places_df.sample(5)
-                message = "No exact matches found. But you may like:"
-    else:
-        # For GET requests, show trending places by default
-        recommendations = places_df.nlargest(10, "Rating")
-        message = "Trending tourist places:"
+        session["recommendations"] = recommendations  # Store in session for pagination
 
+        if not recommendations:
+            recommendations = places_df.sample(5).to_dict(orient="records")
+            message = "No exact matches found. Here are some random places you may like."
+    
     # Pagination setup
     page = request.args.get(get_page_parameter(), type=int, default=1)
-    per_page = 10  # Number of results per page
-    offset = (page - 1) * per_page
+    per_page = 10
     total = len(recommendations)
 
     # Paginated data
-    paginated_recommendations = recommendations.iloc[offset : offset + per_page].to_dict(orient="records")
+    start = (page - 1) * per_page
+    end = start + per_page
+    paginated_recommendations = recommendations[start:end]
+
     pagination = Pagination(
         page=page,
         total=total,
         per_page=per_page,
         css_framework="bootstrap5",
         record_name="places",
-        format_total=True,
-        format_number=True,
     )
 
     return render_template(
         "index.html",
         recommendations=paginated_recommendations,
         pagination=pagination,
-        location=location,
-        place_type=place_type,
-        activity=activity,
-        season=season,
         message=message,
     )
-
 
 @app.route("/about")
 def about():
@@ -143,9 +171,20 @@ def contact():
 def login():
     return render_template("login.html")
 
+
 @app.route("/register")
 def register():
     return render_template("register.html")
+
+@app.route("/place/<int:place_id>")
+def page_detail(place_id):
+    place = places_df.loc[places_df['place_id'] == place_id].iloc[0]
+    # Fetch similar places based on the same type
+    similar_places = places_df[
+        (places_df['Type'] == place['Type']) & (places_df['place_id'] != place_id)
+    ].nlargest(4, 'Rating').to_dict(orient="records") 
+    return render_template("place_detail.html", place=place, similar_places=similar_places)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
