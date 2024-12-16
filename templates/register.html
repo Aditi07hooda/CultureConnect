@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='login.css') }}"
+    />
+  </head>
+  <script>
+    async function handleRegister(event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      const requestBody = { name, email, password };
+
+      try {
+        const response = await fetch("/auth/register", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(requestBody),
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          alert("Registration successful!");
+          window.location.href = "/";
+        } else {
+          alert(result.message || "Registration failed.");
+        }
+      } catch (error) {
+        console.error("Error during registration:", error);
+        alert("An error occurred. Please try again later.");
+      }
+    }
+  </script>
+  <body>
+    <div class="wrapper">
+      <form onsubmit="handleRegister(event)">
+        <h2>Register</h2>
+        <div class="input-field">
+          <input type="text" required />
+          <label>Enter your name</label>
+        </div>
+        <div class="input-field">
+          <input type="text" required />
+          <label>Enter your email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" required />
+          <label>Enter your password</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="register">
+          <p>Do have an account? <a href="login">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

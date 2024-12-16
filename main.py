@@ -1,9 +1,16 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, session, redirect, url_for, jsonify
 from flask_paginate import Pagination, get_page_parameter
 import pandas as pd
 
+from auth import auth
+from db_config import init_db
+
 # Flask app
 app = Flask(__name__)
+app.secret_key = "qwertyuioplkjhgfdsazxcvbnm"
+init_db(app)
+
+app.register_blueprint(auth, url_prefix='/auth')
 
 # Load dataset
 places_df = pd.read_csv("Tourist_Places_India.csv")
@@ -44,6 +51,10 @@ def recommend_places(location=None, place_type=None, activity=None, season=None)
 # Routes
 @app.route("/")
 def index():
+    print(session)
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
+    
     trending_places = places_df.nlargest(10, "Rating").to_dict(orient="records")  # Top 10 by rating
     message = "Trending tourist places:"
     return render_template("index.html", recommendations=trending_places, message=message)
@@ -124,6 +135,14 @@ def about():
 def contact():
     return render_template("contact.html")
 
+
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+@app.route("/register")
+def register():
+    return render_template("register.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
