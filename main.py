@@ -3,6 +3,7 @@ from flask_paginate import Pagination, get_page_parameter
 import pandas as pd
 
 from auth import auth
+from book import booking
 from db_config import init_db
 
 app = Flask(__name__)
@@ -10,6 +11,7 @@ app.secret_key = "qwertyuioplkjhgfdsazxcvbnm"
 init_db(app)
 
 app.register_blueprint(auth, url_prefix="/auth")
+app.register_blueprint(booking, url_prefix="/")
 
 # Load dataset
 places_df = pd.read_csv("Tourist_Places_India.csv")

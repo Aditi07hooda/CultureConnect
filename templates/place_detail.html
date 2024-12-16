@@ -64,7 +64,14 @@
           <a href="{{ url_for('index') }}" class="btn btn-secondary"
             >Back to Home</a
           >
-          <a class="btn btn-success">Book Now</a>
+          <button
+            type="button"
+            class="btn btn-success"
+            data-bs-toggle="modal"
+            data-bs-target="#bookingModal"
+          >
+            Book Now
+          </button>
         </div>
         <div class="col-md-6">
           <img
@@ -107,6 +114,160 @@
         {% endfor %}
       </div>
     </div>
+
+    <div
+      class="modal fade"
+      id="bookingModal"
+      tabindex="-1"
+      aria-labelledby="bookingModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bookingModalLabel">
+              Book {{ place['name'] }}
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="bookingForm">
+              <input
+                type="hidden"
+                id="userId"
+                name="user_id"
+                value="{{ session['user_id'] }}"
+              />
+              <input
+                type="hidden"
+                id="placeId"
+                name="place_id"
+                value="{{ place['place_id'] }}"
+              />
+              <input
+                type="hidden"
+                id="placeName"
+                name="place_name"
+                value="{{ place['name'] }}"
+              />
+              <div class="mb-3">
+                <label for="checkInDate" class="form-label"
+                  >Check-in Date</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="checkInDate"
+                  name="check_in_date"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="checkOutDate" class="form-label"
+                  >Check-out Date</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="checkOutDate"
+                  name="check_out_date"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="guests" class="form-label">Number of Guests</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="guests"
+                  name="guests"
+                  min="1"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="totalPrice" class="form-label">Total Price</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="totalPrice"
+                  name="total_price"
+                  readonly
+                />
+              </div>
+              <button type="submit" class="btn btn-success">
+                Confirm Booking
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const checkInDateInput = document.getElementById("checkInDate");
+      const checkOutDateInput = document.getElementById("checkOutDate");
+      const guestsInput = document.getElementById("guests");
+      const totalPriceInput = document.getElementById("totalPrice");
+
+      // Event listeners to recalculate total price
+      checkInDateInput.addEventListener("change", calculateTotalPrice);
+      checkOutDateInput.addEventListener("change", calculateTotalPrice);
+      guestsInput.addEventListener("input", calculateTotalPrice);
+
+      function calculateTotalPrice() {
+        const pricePerNight = {{ place['price per night'] }}; // From template
+        const guests = parseInt(guestsInput.value) || 0;
+
+        const checkInDate = new Date(checkInDateInput.value);
+        const checkOutDate = new Date(checkOutDateInput.value);
+        const days = (checkOutDate - checkInDate) / (1000 * 60 * 60 * 24);
+
+        if (days > 0 && guests > 0) {
+          const totalPrice = guests * pricePerNight * days;
+          totalPriceInput.value = totalPrice; // Set calculated price
+        } else {
+          totalPriceInput.value = ""; // Clear if invalid
+        }
+      }
+
+      document.getElementById("bookingForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const data = {
+          user_id: document.getElementById("userId").value,
+          place_id: document.getElementById("placeId").value,
+          place_name: document.getElementById("placeName").value,
+          check_in_date: checkInDateInput.value,
+          check_out_date: checkOutDateInput.value,
+          total_price: totalPriceInput.value,
+          guests: guestsInput.value,
+        };
+
+        fetch("/book", {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.message) {
+              alert(data.message);
+              location.reload(); // Optionally reload
+            } else {
+              alert("Booking failed: " + data.error);
+            }
+          })
+          .catch((error) => console.error("Error:", error));
+      });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>

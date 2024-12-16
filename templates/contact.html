@@ -1,62 +1,134 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Contact - Culture Connect</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">Culture Connect</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse mt-2" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ url_for('about') }}">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Culture Connect</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-2" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('about') }}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <div class="container my-5">
-        <h1>Contact Information</h1>
-        
-        <h2>Aditi, Aparna, and Anusha's Contact Details</h2>
-        <p>If you have any questions or feedback regarding the Culture Connect project, feel free to reach out to any of the developers. We're always open to suggestions and new opportunities!</p>
-        
-        <h3>Contact Information:</h3>
-        <ul>
-            <li><strong>Aditi's LinkedIn:</strong> <a href="https://www.linkedin.com/in/aditi-10085929b" target="_blank">linkedin.com/in/aditi-10085929b</a></li>
-            <li><strong>Aditi's GitHub:</strong> <a href="https://github.com/Aditi07hooda" target="_blank">github.com/Aditi07hooda</a></li>
-            <li><strong>Aditi's Portfolio:</strong> <a href="https://portfolio-cyan-ten-57.vercel.app/" target="_blank">portfolio-cyan-ten-57.vercel.app</a></li>
-            
-            <li><strong>Aparna's LinkedIn:</strong> <a href="https://www.linkedin.com/in/aparna" target="_blank">linkedin.com/in/aparna</a></li>
-            <li><strong>Aparna's GitHub:</strong> <a href="https://github.com/aparna" target="_blank">github.com/aparna</a></li>
-            <li><strong>Aparna's Portfolio:</strong> <a href="https://aparna-portfolio.com" target="_blank">aparna-portfolio.com</a></li>
-            
-            <li><strong>Anusha's LinkedIn:</strong> <a href="https://www.linkedin.com/in/anusha" target="_blank">linkedin.com/in/anusha</a></li>
-            <li><strong>Anusha's GitHub:</strong> <a href="https://github.com/anusha" target="_blank">github.com/anusha</a></li>
-            <li><strong>Anusha's Portfolio:</strong> <a href="https://anusha-portfolio.com" target="_blank">anusha-portfolio.com</a></li>
-        </ul>
+      <h1>Contact Information</h1>
 
-        <h3>Internship Experience:</h3>
-        <ul>
-            <li><strong>Aditi:</strong> 365Build Technologies, Software Development Intern (Aug 2024 – Feb 2025)</li>
-            <li><strong>Aparna:</strong> Tech Solutions, Backend Developer Intern (Jun 2023 – Aug 2023)</li>
-            <li><strong>Anusha:</strong> Airport Authority of India, Software Developer Intern (Nov 2023 – Dec 2023)</li>
-        </ul>
+      <h2>Aditi, Aparna, and Anusha's Contact Details</h2>
+      <p>
+        If you have any questions or feedback regarding the Culture Connect
+        project, feel free to reach out to any of the developers. We're always
+        open to suggestions and new opportunities!
+      </p>
+
+      <h3>Contact Information:</h3>
+      <ul>
+        <li>
+          <strong>Aditi's LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/aditi-10085929b" target="_blank"
+            >linkedin.com/in/aditi-10085929b</a
+          >
+        </li>
+        <li>
+          <strong>Aditi's GitHub:</strong>
+          <a href="https://github.com/Aditi07hooda" target="_blank"
+            >github.com/Aditi07hooda</a
+          >
+        </li>
+        <li>
+          <strong>Aditi's Portfolio:</strong>
+          <a href="https://portfolio-cyan-ten-57.vercel.app/" target="_blank"
+            >portfolio-cyan-ten-57.vercel.app</a
+          >
+        </li>
+
+        <li>
+          <strong>Aparna's LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/aparna" target="_blank"
+            >linkedin.com/in/aparna</a
+          >
+        </li>
+        <li>
+          <strong>Aparna's GitHub:</strong>
+          <a href="https://github.com/aparna" target="_blank"
+            >github.com/aparna</a
+          >
+        </li>
+        <li>
+          <strong>Aparna's Portfolio:</strong>
+          <a href="https://aparna-portfolio.com" target="_blank"
+            >aparna-portfolio.com</a
+          >
+        </li>
+
+        <li>
+          <strong>Anusha's LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/anusha" target="_blank"
+            >linkedin.com/in/anusha</a
+          >
+        </li>
+        <li>
+          <strong>Anusha's GitHub:</strong>
+          <a href="https://github.com/anusha" target="_blank"
+            >github.com/anusha</a
+          >
+        </li>
+        <li>
+          <strong>Anusha's Portfolio:</strong>
+          <a href="https://anusha-portfolio.com" target="_blank"
+            >anusha-portfolio.com</a
+          >
+        </li>
+      </ul>
+
+      <h3>Internship Experience:</h3>
+      <ul>
+        <li>
+          <strong>Aditi:</strong> 365Build Technologies, Software Development
+          Intern (Aug 2024 – Feb 2025)
+        </li>
+        <li>
+          <strong>Aparna:</strong> Tech Solutions, Backend Developer Intern (Jun
+          2023 – Aug 2023)
+        </li>
+        <li>
+          <strong>Anusha:</strong> Airport Authority of India, Software
+          Developer Intern (Nov 2023 – Dec 2023)
+        </li>
+      </ul>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
