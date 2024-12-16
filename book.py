@@ -47,12 +47,23 @@ def create_booking():
 
 @booking.route("/bookings", methods=["GET"])
 def get_user_bookings():
-    user_id = session.get("user_id")
-    if not user_id:
+    if "user_id" not in session:
         return jsonify({"error": "Unauthorized"}), 401
 
+    user_id = session["user_id"]
     bookings = Booking.query.filter_by(user_id=user_id).all()
-    return jsonify([booking.to_dict() for booking in bookings]), 200
+    bookings_list = [
+        {
+            "place_name": booking.place_name,
+            "check_in_date": booking.check_in_date,
+            "check_out_date": booking.check_out_date,
+            "guests": booking.guests,
+            "total_price": booking.total_price,
+        }
+        for booking in bookings
+    ]
+    return jsonify(bookings_list)
+
 
 
 @booking.route("/bookings/<int:booking_id>", methods=["GET"])
