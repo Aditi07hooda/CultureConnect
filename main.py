@@ -62,6 +62,9 @@ def index():
 
 @app.route("/recommend", methods=["GET", "POST"])
 def recommend():
+    if 'user_id' not in session:
+        return redirect(url_for('login'))
+    
     recommendations = pd.DataFrame()
     pagination = None
     location = place_type = activity = season = None
