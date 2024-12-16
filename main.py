@@ -132,8 +132,10 @@ def recommend():
 
         if not recommendations:
             recommendations = places_df.sample(5).to_dict(orient="records")
-            message = "No exact matches found. Here are some random places you may like."
-    
+            message = (
+                "No exact matches found. Here are some random places you may like."
+            )
+
     # Pagination setup
     page = request.args.get(get_page_parameter(), type=int, default=1)
     per_page = 10
@@ -159,13 +161,18 @@ def recommend():
         message=message,
     )
 
+
 @app.route("/about")
 def about():
+    if "user_id" not in session:
+        return redirect(url_for("auth.login"))
     return render_template("about.html")
 
 
 @app.route("/contact")
 def contact():
+    if "user_id" not in session:
+        return redirect(url_for("auth.login"))
     return render_template("contact.html")
 
 
@@ -178,14 +185,24 @@ def login():
 def register():
     return render_template("register.html")
 
+
 @app.route("/place/<int:place_id>")
 def page_detail(place_id):
-    place = places_df.loc[places_df['place_id'] == place_id].iloc[0]
-    # Fetch similar places based on the same type
-    similar_places = places_df[
-        (places_df['Type'] == place['Type']) & (places_df['place_id'] != place_id)
-    ].nlargest(4, 'Rating').to_dict(orient="records") 
-    return render_template("place_detail.html", place=place, similar_places=similar_places)
+    if "user_id" not in session:
+        return redirect(url_for("auth.login"))
+
+    place = places_df.loc[places_df["place_id"] == place_id].iloc[0]
+
+    similar_places = (
+        places_df[
+            (places_df["Type"] == place["Type"]) & (places_df["place_id"] != place_id)
+        ]
+        .nlargest(4, "Rating")
+        .to_dict(orient="records")
+    )
+    return render_template(
+        "place_detail.html", place=place, similar_places=similar_places
+    )
 
 
 if __name__ == "__main__":

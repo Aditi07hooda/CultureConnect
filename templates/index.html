@@ -63,7 +63,7 @@
               <li class="dropdown-item">
                 <strong>Name:</strong> {{ session.get('user_name', 'Guest')
                 }}<br />
-                <strong>Email:</strong> {{ session.get('user_email', 'Not Logged
+                <strong>Email:</strong> {{ session.get('email', 'Not Logged
                 In') }}
               </li>
               <li>
@@ -80,7 +80,7 @@
                 </a>
               </li>
               <li>
-                <a class="dropdown-item">Logout</a>
+                <a class="dropdown-item" href="{{ url_for('auth.logout') }}">Logout</a>
               </li>
             </ul>
           </div>
