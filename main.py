@@ -96,15 +96,10 @@ def recommend():
         return redirect(url_for("auth.login"))
 
     message = ""
-
-    # Retrieve stored recommendations from the session or initialize as empty
-    if "recommendations" in session:
-        recommendations = session["recommendations"]
-    else:
-        recommendations = pd.DataFrame()
+    page = request.args.get(get_page_parameter(), type=int, default=1)
+    per_page = 10
 
     if request.method == "POST":
-        # Get form data
         site_name = request.form.get("site_name")
         place = request.form.get("place")
         location = request.form.get("location")
@@ -115,7 +110,6 @@ def recommend():
         festival = request.form.get("festival")
         ratings = request.form.get("ratings")
 
-        # Get recommendations
         recommendations = recommend_places(
             site_name=site_name,
             place=place,
@@ -126,29 +120,24 @@ def recommend():
             season=season,
             festival=festival,
             ratings=ratings,
-        ).to_dict(orient="records")
+        )
 
-        session["recommendations"] = recommendations  # Store in session for pagination
+        # Store only IDs in session for large data
+        session["recommendation_ids"] = recommendations["place_id"].tolist()
+        session["recommendation_message"] = "Results filtered successfully."
 
-        if not recommendations:
-            recommendations = places_df.sample(5).to_dict(orient="records")
-            message = (
-                "No exact matches found. Here are some random places you may like."
-            )
+    recommendation_ids = session.get("recommendation_ids", [])
+    message = session.get("recommendation_message", "")
 
-    # Pagination setup
-    page = request.args.get(get_page_parameter(), type=int, default=1)
-    per_page = 10
-    total = len(recommendations)
-
-    # Paginated data
-    start = (page - 1) * per_page
-    end = start + per_page
-    paginated_recommendations = recommendations[start:end]
+    # Paginate based on stored IDs
+    paginated_ids = recommendation_ids[(page - 1) * per_page : page * per_page]
+    paginated_recommendations = places_df[
+        places_df["place_id"].isin(paginated_ids)
+    ].to_dict(orient="records")
 
     pagination = Pagination(
         page=page,
-        total=total,
+        total=len(recommendation_ids),
         per_page=per_page,
         css_framework="bootstrap5",
         record_name="places",
