@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Load the dataset
-file_path = "Karnataka_Tourism_Dataset.csv"  # Path to your dataset
+file_path = "Tourist_places_India.csv"  # Path to your dataset
 data = pd.read_csv(file_path)
 
 # Display the dataset structure

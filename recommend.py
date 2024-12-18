@@ -1,85 +1,86 @@
-# Importing required libraries
+# Import required libraries
 import pandas as pd
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error, r2_score
-import matplotlib.pyplot as plt
+from sklearn.metrics import mean_squared_error
 
-# Step 1: Load the dataset
-file_path = "Tourist_Places_India.csv" 
+# Load the dataset
+file_path = "Tourist_Places_India.csv"  # Path to your dataset
 data = pd.read_csv(file_path)
 
-# Step 2: Data exploration
-print("Dataset Head:")
-print(data.head())
+# Display the dataset structure
+print("Dataset Head:\n", data.head())
 
-print("\nDataset Information:")
-print(data.info())
+# -------- Step 1: Content-Based Filtering --------
+# Combine features for TF-IDF vectorization
+data['CombinedFeatures'] = data['Type'] + " " + data['Activity'] + " " + data['Festival']
 
-# Step 3: Data preprocessing
-# Select features for the model
-features = ['Rating', 'No of People Visited', 'Type', 'Activities']
-target = 'Price Per Night (₹)'
+# Apply TF-IDF vectorization
+tfidf = TfidfVectorizer(stop_words="english")
+content_matrix = tfidf.fit_transform(data['CombinedFeatures'])
 
-# One-hot encoding for categorical variables (Type and Activities)
-categorical_features = ['Type', 'Activities']
-encoder = OneHotEncoder()
-encoded_features = encoder.fit_transform(data[categorical_features]).toarray()
+# Compute cosine similarity for places
+content_similarity = cosine_similarity(content_matrix)
+print("\nContent Similarity Matrix Shape:", content_similarity.shape)
 
-# Combine encoded features with numerical features
-numerical_features = data[['Rating', 'No of People Visited']].values
-X = np.hstack([numerical_features, encoded_features])
-y = data[target].values
+# -------- Step 2: Collaborative Filtering --------
+# Create a mock user-rating matrix (simulated for demonstration)
+# Place IDs are rows, user IDs are columns
+user_ratings = pd.DataFrame({
+    1: [4.0, 3.5, np.nan, 4.5, 5.0],
+    2: [np.nan, 4.0, 4.5, 3.0, np.nan],
+    3: [5.0, 4.0, 3.5, np.nan, 2.0],
+    4: [3.5, 2.0, np.nan, 4.5, 3.5],
+    5: [np.nan, 3.5, 4.0, 5.0, 4.5]
+}, index=[1, 2, 3, 4, 5])  # Place IDs
 
-# Step 4: Train-test split
+# Fill NaN values with 0 for similarity calculation
+user_ratings_filled = user_ratings.fillna(0)
+
+# Compute user-user similarity
+collaborative_similarity = cosine_similarity(user_ratings_filled.T)
+print("\nCollaborative Similarity Matrix Shape:", collaborative_similarity.shape)
+
+# -------- Step 3: Hybrid Recommendation --------
+# Combine collaborative and content-based similarities
+# Normalize both similarity matrices
+content_similarity_norm = (content_similarity - np.min(content_similarity)) / (np.max(content_similarity) - np.min(content_similarity))
+collaborative_similarity_norm = (collaborative_similarity - np.min(collaborative_similarity)) / (np.max(collaborative_similarity) - np.min(collaborative_similarity))
+
+# Generate hybrid similarity score (weighted average)
+alpha = 0.5  # Weight for content-based filtering
+beta = 0.5   # Weight for collaborative filtering
+hybrid_similarity = alpha * content_similarity_norm + beta * collaborative_similarity_norm[:content_similarity.shape[0], :content_similarity.shape[0]]
+
+# -------- Step 4: Training and Testing --------
+# Prepare training data
+# Features: Content similarity score and collaborative similarity score
+data['ContentScore'] = np.mean(content_similarity_norm, axis=1)
+data['CollaborativeScore'] = np.mean(collaborative_similarity_norm[:content_similarity.shape[0], :content_similarity.shape[0]], axis=1)
+data['Target'] = data['Price per night']  # Use price as the target for demonstration
+
+X = data[['ContentScore', 'CollaborativeScore']]
+y = data['Target']
+
+# Train-test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Step 5: Scaling features
-scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
-
-# Step 6: Model training
+# Train a linear regression model
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# Step 7: Model evaluation
+# Make predictions
 y_pred = model.predict(X_test)
 
+# Evaluate the model
 mse = mean_squared_error(y_test, y_pred)
-r2 = r2_score(y_test, y_pred)
+print("\nMean Squared Error:", mse)
 
-print("\nModel Evaluation:")
-print(f"Mean Squared Error (MSE): {mse:.2f}")
-print(f"R-squared (R2): {r2:.2f}")
-
-# Step 8: Visualization
-plt.scatter(y_test, y_pred, alpha=0.5)
-plt.xlabel("Actual Prices")
-plt.ylabel("Predicted Prices")
-plt.title("Actual vs Predicted Prices")
-plt.show()
-
-# Step 9: Output analysis
-coefficients = model.coef_
-feature_names = ['Rating', 'No of People Visited'] + list(encoder.get_feature_names_out(categorical_features))
-coef_df = pd.DataFrame({'Feature': feature_names, 'Coefficient': coefficients})
-
-print("\nFeature Importance:")
-print(coef_df)
-
-# Step 10: Prediction example
-sample_data = [[3.5, 12000, "Heritage", "Sightseeing"]]  # Example input
-sample_df = pd.DataFrame(sample_data, columns=['Rating', 'No of People Visited', 'Type', 'Activities'])
-
-# Encode and scale the sample
-sample_encoded = encoder.transform(sample_df[['Type', 'Activities']]).toarray()
-sample_numerical = sample_df[['Rating', 'No of People Visited']].values
-sample_final = np.hstack([sample_numerical, sample_encoded])
-sample_scaled = scaler.transform(sample_final)
-
-# Predict the price
-sample_prediction = model.predict(sample_scaled)
-print(f"\nPredicted Price for the given sample data: ₹{sample_prediction[0]:.2f}")
+def recommend_places(place_index, similarity_matrix, data, top_n=5):
+    similarity_scores = list(enumerate(similarity_matrix[place_index]))
+    sorted_scores = sorted(similarity_scores, key=lambda x: x[1], reverse=True)
+    recommended_indices = [i[0] for i in sorted_scores[1:top_n+1]]  # Exclude itself
+    return data.iloc[recommended_indices]
