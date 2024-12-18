@@ -102,11 +102,11 @@
               </div>
               <div class="input-field">
                 <input type="text" id="place" name="place" />
-                <label>Place</label>
+                <label>Village Name</label>
               </div>
               <div class="input-field">
                 <input type="text" id="location" name="location" />
-                <label>Location</label>
+                <label>Location (District)</label>
               </div>
               <div class="input-field">
                 <input type="text" id="activity" name="activity" />
@@ -160,7 +160,7 @@
                   <strong>Location:</strong> {{ place['Location'] }}<br />
                   <strong>Type:</strong> {{ place['Type'] }}<br />
                   <strong>Best Season:</strong> {{ place['Best Season'] }}<br />
-                  <strong>Price:</strong> ${{ place['price per night'] }}<br />
+                  <strong>Price:</strong> Rs. {{ place['price per night'] }}<br />
                   <strong>Ratings:</strong> {{ place['Rating'] }}<br />
                 </p>
               </div>

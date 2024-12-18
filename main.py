@@ -72,7 +72,7 @@ def recommend_places(
     if price:
         filtered_df = filtered_df[
             filtered_df["price per night"] <= float(price)
-        ]  # Changed to allow searching under budget
+        ]
 
     return filtered_df
 
@@ -122,12 +122,14 @@ def recommend():
             ratings=ratings,
         )
 
+        if recommendations.empty:
+            recommendations = places_df.sample(5)
+            message = "No exact matches found. But you may like:"
+
         # Store only IDs in session for large data
         session["recommendation_ids"] = recommendations["place_id"].tolist()
-        session["recommendation_message"] = "Results filtered successfully."
 
     recommendation_ids = session.get("recommendation_ids", [])
-    message = session.get("recommendation_message", "")
 
     # Paginate based on stored IDs
     paginated_ids = recommendation_ids[(page - 1) * per_page : page * per_page]
