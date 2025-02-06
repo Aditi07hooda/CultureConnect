@@ -19,7 +19,6 @@ places_df = places_df.dropna(subset=["Rating"])
 places_df["Rating"] = pd.to_numeric(places_df["Rating"], errors="coerce")
 
 
-# Helper function to filter recommendations
 def recommend_places(
     site_name, place, location, activity, price, place_type, season, festival, ratings
 ):
