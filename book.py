@@ -9,7 +9,7 @@ booking = Blueprint("booking", __name__)
 
 # Initialize Square client with access_token
 client = Client(
-    access_token="EAAAl23ne7q020DpjHvkl4DkeJZ6QAUxbNbsKjwbxel5-5z1LKJLH_zATcVNZVht",
+    access_token="EAAAlx7eKrdm-6Nj0JJ5NRyREwpQ07UWJU9uRAtmZ_a3NKXKKfLNvk-KOykI5-JX",
     environment="sandbox",  # Use 'production' for live environment
 )
 

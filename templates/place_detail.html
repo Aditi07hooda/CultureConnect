@@ -23,7 +23,9 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" style="font-size: 28px;" href="/">Culture Connect</a>
+        <a class="navbar-brand" style="font-size: 28px" href="/"
+          >Culture Connect</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -35,13 +37,27 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse pt-3" id="navbarNav" style="margin-left: 15px;">
+        <div
+          class="collapse navbar-collapse pt-3"
+          id="navbarNav"
+          style="margin-left: 15px"
+        >
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('about') }}" style="font-size: 18px; color: white;">About</a>
+              <a
+                class="nav-link"
+                href="{{ url_for('about') }}"
+                style="font-size: 18px; color: white"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('contact') }}" style="font-size: 18px; color: white;">Contact</a>
+              <a
+                class="nav-link"
+                href="{{ url_for('contact') }}"
+                style="font-size: 18px; color: white"
+                >Contact</a
+              >
             </li>
           </ul>
           <div class="dropdown">
@@ -62,8 +78,8 @@
               <li class="dropdown-item">
                 <strong>Name:</strong> {{ session.get('user_name', 'Guest')
                 }}<br />
-                <strong>Email:</strong> {{ session.get('email', 'Not Logged
-                In') }}
+                <strong>Email:</strong> {{ session.get('email', 'Not Logged In')
+                }}
               </li>
               <li>
                 <hr class="dropdown-divider" />
@@ -79,7 +95,9 @@
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="{{ url_for('auth.logout') }}">Logout</a>
+                <a class="dropdown-item" href="{{ url_for('auth.logout') }}"
+                  >Logout</a
+                >
               </li>
             </ul>
           </div>
@@ -284,7 +302,10 @@
         </div>
       </div>
     </div>
-
+    <script
+      type="text/javascript"
+      src="https://sandbox.web.squarecdn.com/v1/square.js"
+    ></script>
     <script>
       const checkInDateInput = document.getElementById("checkInDate");
       const checkOutDateInput = document.getElementById("checkOutDate");
@@ -329,26 +350,27 @@
       });
 
       // Initialize Square Payment
-      const appId = "sandbox-sq0idb-NG0RVhoVo8HrJKcyyAO2nw";
-      const locationId = "LEW4YDD12DB2E";
-
-      async function initializeCard() {
-        const payments = window.Square.payments(appId, locationId);
+      const appId = "sandbox-sq0idb-14VEStbdCPQRs3GrUEwfvA";
+      const locationId = "LDW4T5FTAD5XT";
+      
+      async function initializeCard(payments) {
         const card = await payments.card();
-        await card.attach("#card-container");
-
-        cardButton.addEventListener("click", async () => {
-          try {
-            const tokenResult = await card.tokenize();
-            if (tokenResult.status === "OK") {
-              submitPayment(tokenResult.token);
-            } else {
-              alert("Payment failed: " + tokenResult.errors[0].message);
-            }
-          } catch (e) {
-            console.error(e.message);
-          }
-        });
+        await card.attach('#card-container');
+        return card;
+      }
+    
+      async function initializeCard() {
+        if (!window.Square) {
+          throw new Error('Square.js failed to load properly');
+        }
+        const payments = window.Square.payments(appId, locationId);
+        let card;
+        try {
+          card = await initializeCard(payments);
+        } catch (e) {
+          console.error('Initializing Card failed', e);
+          return;
+        }
       }
 
       async function submitPayment(token) {
